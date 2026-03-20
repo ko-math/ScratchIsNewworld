@@ -3,6 +3,16 @@
   50% {rotate: 180deg;}
   100% {rotate: 360deg;}
 }
+@keyframes sin-logo-2{
+  0% {rotate: none;}
+  50% {rotate: -180deg;}
+  100% {rotate: -360deg;}
+}
+@keyframes sin-logo-1{
+  0% {rotate: none;}
+  45% {rotate: 180deg;}
+  90% {rotate: 360deg;}
+}
 /*内側アニメーション*/
 .sin-logo-1{
   animation-name: sin-logo-1;
