@@ -19,12 +19,12 @@
   animation-timing-function: linear;
   position: absolute;
 }
-.sin-logo-1{
+.circle1{
   animation-name: sin-logo-1;
 }  
-.sin-logo-2{
+.circle2{
   animation-name: sin-logo-2;
 }
-.sin-logo-3{
+.circle3{
   animation-name: sin-logo-3;
 }
