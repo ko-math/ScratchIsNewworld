@@ -17,6 +17,7 @@
 .sin-logo{
   animation-duration: 7s;
   animation-timing-function: linear;
+  position: absolute;
 }
 .sin-logo-1{
   animation-name: sin-logo-1;
