@@ -17,6 +17,7 @@
 .sin-logo{
   animation-duration: 7s;
   animation-timing-function: linear;
+  align-items: center;
   position: absolute;
 }
 .circle1{
