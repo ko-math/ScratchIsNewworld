@@ -8,14 +8,22 @@
   50% {rotate: -180deg;}
   100% {rotate: -360deg;}
 }
-@keyframes sin-logo-1{
+@keyframes sin-logo-3{
   0% {rotate: none;}
   45% {rotate: 180deg;}
   90% {rotate: 360deg;}
 }
 /*内側アニメーション*/
+.sin-logo{
+  animation-duration: 7s;
+  animation-timing-function: linear;
+}
 .sin-logo-1{
   animation-name: sin-logo-1;
-  animation-duration: 5s;
-  animation-timing-function: linear;
+}  
+.sin-logo-2{
+  animation-name: sin-logo-2;
+}
+.sin-logo-3{
+  animation-name: sin-logo-3;
 }
