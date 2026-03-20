@@ -21,9 +21,13 @@
 }
 .circle1{
   animation-name: sin-logo-1;
+  top: 10px;
+  left: 10px
 }  
 .circle2{
   animation-name: sin-logo-2;
+  top: 5px;
+  left: 15px;
 }
 .circle3{
   animation-name: sin-logo-3;
