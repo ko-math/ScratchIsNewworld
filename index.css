@@ -10,8 +10,8 @@
 }
 @keyframes sin-logo-3{
   0% {rotate: none;}
-  45% {rotate: 180deg;}
-  90% {rotate: 360deg;}
+  50% {rotate: 200deg;}
+  100% {rotate: 400deg;}
 }
 /*内側アニメーション*/
 .sin-logo{
