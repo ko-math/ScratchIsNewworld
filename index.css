@@ -17,7 +17,7 @@
 }
 /*内側アニメーション*/
 .sin-logo{
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   position: absolute;
