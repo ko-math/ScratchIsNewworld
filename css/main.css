@@ -35,6 +35,64 @@
   opacity: 0;
   transition: opacity 0.3s;
 }
+/*↓ホームページから取ってきた*/
+summary{
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #f4f9ff;
+    color: black;
+    border-radius: 30px;
+    user-select: none;
+    transition: background 0.2s, transform 0.1s;
+    list-style:none;
+}
+
+summary:hover {
+    background: #eaf4ff;
+}
+
+summary:active {
+    transform: scale(0.97);
+}
+summary:focus{
+    outline: none;
+}
+summary:focus-visible{
+    outline:none;
+}
+summary::before{
+    content:"▷";
+    display:inline-block;
+    margin-right:10px;
+    transition: transform 0.35s cubic-bezier(.4,0,.2,1);
+}
+
+details[open] summary::before{
+    transform: rotate(90deg);
+}
+
+
+
+/**/
+details {
+    margin: 10px 0;
+}
+.dialog .dialog_body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dialog[open] .dialog_body {
+  max-height: 2500px;
+}
+.dialog_body{
+    padding:0 20px;
+}
+
 
 .tooltip-wrapper:hover .tooltip-text {
   visibility: visible;
