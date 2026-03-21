@@ -12,8 +12,8 @@
 
 @keyframes sin-logo-3{
   0% { transform: translate(-50%, -50%) rotate(0deg); }
-  50% { transform: translate(-50%, -50%) rotate(200deg); }
-  100% { transform: translate(-50%, -50%) rotate(400deg); }
+  50% { transform: translate(-50%, -50%) rotate(360deg); }
+  100% { transform: translate(-50%, -50%) rotate(720deg); }
 }
 /*内側アニメーション*/
 .sin-logo{
