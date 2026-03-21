@@ -14,3 +14,12 @@ el.addEventListener('animationend', function () {
     main.classList.add('show');
   }
 });
+
+function restartAnimation(el) {
+  for(let e of el){
+    e.classList.remove('active');
+    void e.offsetWidth;
+    e.classList.add('active');
+  }
+}
+const all = document.querySelectorAll('.active');
