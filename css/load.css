@@ -35,6 +35,8 @@
   animation-name: sin-logo-3;
 }
 .sin{
+  top: 12%;
+  left: -41%;
   position: absolute;
-  scale: 50%;
+  scale: 15%;
 }
