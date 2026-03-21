@@ -1,17 +1,19 @@
 @keyframes sin-logo-1{
-  0% {rotate: none;}
-  50% {rotate: 180deg;}
-  100% {rotate: 360deg;}
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  50% { transform: translate(-50%, -50%) rotate(180deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
+
 @keyframes sin-logo-2{
-  0% {rotate: none;}
-  50% {rotate: -180deg;}
-  100% {rotate: -360deg;}
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  50% { transform: translate(-50%, -50%) rotate(-180deg); }
+  100% { transform: translate(-50%, -50%) rotate(-360deg); }
 }
+
 @keyframes sin-logo-3{
-  0% {rotate: none;}
-  50% {rotate: 200deg;}
-  100% {rotate: 400deg;}
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  50% { transform: translate(-50%, -50%) rotate(200deg); }
+  100% { transform: translate(-50%, -50%) rotate(400deg); }
 }
 /*内側アニメーション*/
 .sin-logo{
@@ -21,7 +23,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   transform-origin: center;
 }
 .circle1{
