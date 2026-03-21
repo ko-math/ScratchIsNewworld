@@ -1,9 +1,16 @@
 const el = document.querySelector('.circle1pa');
-
+let now = 0;
 el.addEventListener('animationstart', function (){
-  console.log('開始');
+  now++;
+  const main = document.querySelector('.main');
+  main.classList.remove('show');
+  main.classList.add('hide');
 });
 
 el.addEventListener('animationend', function () {
-  console.log('終了');
+  now--;
+  if(now == 0){
+    main.classList.remove('hide');
+    main.classList.add('show');
+  }
 });
