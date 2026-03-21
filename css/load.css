@@ -17,9 +17,9 @@
 }
 /*消える,opasityより*/
 @keyframes opas{
-  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(200, 200, 200, 0.3); }
-  50% { opacity: 50%; box-shadow: 0px 0px 10px rgba(200, 200, 200, 0.3); }
-  100% { opacity: 0%; box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.3); }
+  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(200, 200, 200, 0.5); border-radius: 50%; overflow: hidden; }
+  50% { opacity: 50%; box-shadow: 0px 0px 10px rgba(200, 200, 200, 0.5); border-radius: 50%; overflow: hidden; }
+  100% { opacity: 0%; box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.5); border-radius: 50%; overflow: hidden; }
 }
 /*内側アニメーション*/
 .sin-logo,.circle1,.circle2,.circle3,.sin{
