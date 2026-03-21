@@ -40,3 +40,11 @@
   position: absolute;
   scale: 15%;
 }
+/*
+.sin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
