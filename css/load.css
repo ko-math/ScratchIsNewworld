@@ -31,17 +31,17 @@
 .circle1{
   animation: 
     sin-logo-1 8s linear 0s 2,/*name duration function delay iteration-count*/
-    opas 8s linear 16s 1;
+    opas 3s linear 16s 1;
 }  
 .circle2{
   animation:
     sin-logo-2 8s linear 0s 2,
-    opas 8s linear 16s 1;
+    opas 3s linear 16s 1;
 }
 .circle3{
   animation:
     sin-logo-3 8s linear 0s 2,
-    opas 8s linear 16s 1;
+    opas 3s linear 16s 1;
 }
 .sin {
   position: absolute;
@@ -49,4 +49,5 @@
   left: 50%;
   transform: translate(-330%, -330%);
   scale: 15%;
+  animation:opas 3s linear 16s 1;
 }
