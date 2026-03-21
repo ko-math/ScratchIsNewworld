@@ -95,6 +95,7 @@ details {
 
 .dialog[open] .dialog_body {
   max-height: 2500px;
+  background-color: #f4f9ff;
 }
 .dialog_body{
     padding:0 20px;
