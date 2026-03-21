@@ -5,6 +5,13 @@
 .main{
   font-family: "IBM";
 }
+.center{
+  display:flex;
+  justify-content:center;
+  background-color:white;
+  padding:8px;
+}
+
 .hide{
   display: none;
 }
@@ -101,10 +108,4 @@ details {
 
 li {
   list-style-type: "▷";
-}
-.center{
-  display:flex;
-  justify-content:center;
-  background-color:white;
-  padding:8px;
 }
