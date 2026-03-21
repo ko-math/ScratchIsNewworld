@@ -1,6 +1,6 @@
 const el = document.querySelector('.circle1pa');
 
-el.addEventListener('animationstart' function (){
+el.addEventListener('animationstart', function (){
   console.log('開始');
 });
 
