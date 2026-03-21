@@ -98,3 +98,13 @@ details {
   visibility: visible;
   opacity: 1;
 }
+
+li {
+  list-style-type: "▷";
+}
+.center{
+  display:flex;
+  justify-content:center;
+  background-color:white;
+  padding:8px;
+}
