@@ -21,6 +21,11 @@
   50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(125%);}
   100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(150%);}
 }
+@keyframes opas-sin{
+  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(100%);}
+  50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(125%);}
+  100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(150%);}
+}
 /*内側アニメーション*/
 
 
@@ -30,17 +35,17 @@
   left: 50%;
   transform-origin: center;
 }
-.circle1.active{
+.circle1pa.active{
   animation: 
     sin-logo-1 8s linear 0s 2,/*name duration function delay iteration-count*/
     opas 3s linear 10s 1 forwards;
 }  
-.circle2.active{
+.circle2pa.active{
   animation:
     sin-logo-2 8s linear 0s 2,
     opas 3s linear 10s 1 forwards;
 }
-.circle3.active{
+.circle3pa.active{
   animation:
     sin-logo-3 8s linear 0s 2,
     opas 3s linear 10s 1 forwards;
@@ -51,5 +56,5 @@
   left: 50%;
   transform: translate(-330%, -330%);
   scale: 15%;
-  animation:opas 3s linear 10s 1 forwards;
+  animation:opas-sin 3s linear 10s 1 forwards;
 }
