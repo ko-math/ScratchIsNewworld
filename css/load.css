@@ -17,7 +17,7 @@
 }
 /*消える,opasityより*/
 @keyframes opas{
-  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform:　scale(100%);}
+  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: scale(100%);}
   50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: scale(125%);}
   100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: scale(150%);}
 }
