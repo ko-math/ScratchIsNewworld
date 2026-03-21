@@ -34,3 +34,7 @@
 .circle3{
   animation-name: sin-logo-3;
 }
+.sin{
+  position: absolute;
+  scale: 50%;
+}
