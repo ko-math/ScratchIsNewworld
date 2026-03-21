@@ -16,7 +16,7 @@
   100% { transform: translate(-50%, -50%) rotate(720deg); }
 }
 /*消える,opasityより*/
-@keyframes opas-1{
+@keyframes opas{
   0% { opacity: 100%; }
   50% { opacity: 50%; }
   100% { opacity: 0%; }
@@ -29,16 +29,16 @@
   transform-origin: center;
 }
 .circle1{
-  animation: sin-logo-1 8s linear 0 2;
-  animation: opas-1 8s linear 16s 1;
+  animation: sin-logo-1 8s linear 0s 2;/*name duration function delay iteration-count*/
+  animation: opas 8s linear 16s 1;
 }  
 .circle2{
-  animation: sin-logo-2 8s linear 0 2;
-  animation: opas-2 8s linear 16s 1;
+  animation: sin-logo-2 8s linear 0s 2;
+  animation: opas 8s linear 16s 1;
 }
 .circle3{
-  animation: sin-logo-3 8s linear 0 2;
-  animation: opas-3 8s linear 16s 1;
+  animation: sin-logo-3 8s linear 0s 2;
+  animation: opas 8s linear 16s 1;
 }
 .sin {
   position: absolute;
