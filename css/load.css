@@ -17,14 +17,14 @@
 }
 /*消える,opasityより*/
 @keyframes opas{
-  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(100%);}
-  50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(125%);}
-  100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-50%, -50%) scale(150%);}
+  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform:　scale(100%);}
+  50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: scale(125%);}
+  100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: scale(150%);}
 }
 @keyframes opas-sin{
-  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-330%, -330%) scale(100%);}
-  50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-330%, -330%) scale(125%);}
-  100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 50%; overflow: hidden; transform: translate(-330%, -330%) scale(150%);}
+  0% { opacity: 100%; box-shadow: 0px 0px 0px rgba(150, 200, 200, 0.5); border-radius: 10%; overflow: hidden; transform: translate(-330%, -330%) scale(100%);}
+  50% { opacity: 50%; box-shadow: 0px 0px 100px rgba(150, 200, 200, 0.5); border-radius: 10%; overflow: hidden; transform: translate(-330%, -330%) scale(125%);}
+  100% { opacity: 0%; box-shadow: 0px 0px 200px rgba(150, 200, 200, 0.5); border-radius: 10%; overflow: hidden; transform: translate(-330%, -330%) scale(150%);}
 }
 /*内側アニメーション*/
 
@@ -71,4 +71,13 @@
   transform: translate(-330%, -330%);
   scale: 15%;
   animation:opas-sin 3s linear 10s 1 forwards;
+}
+.circle1pa,
+.circle2pa,
+.circle3pa{
+  position: absolute;
+  transform-origin: center;
+  top: 50%;
+  left: 50%;
+  transform: scale(100%);
 }
