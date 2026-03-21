@@ -15,11 +15,17 @@
   50% { transform: translate(-50%, -50%) rotate(360deg); }
   100% { transform: translate(-50%, -50%) rotate(720deg); }
 }
+/*消える,opasityより*/
+@keyframes opas-1{
+  0% { opacity: 100%; }
+  50% { opacity: 50%; }
+  100% { opacity: 0%; }
+}
 /*内側アニメーション*/
 .sin-logo{
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 5;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,3 +48,23 @@
   scale: 15%;
 }
 
+
+.sin-logo{
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  animation-delay: 40s
+}
+.circle1{
+  animation-name: opas-1;
+}  
+.circle2{
+  animation-name: opas-2;
+}
+.circle3{
+  animation-name: opas-3;
+}
