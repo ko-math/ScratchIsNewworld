@@ -37,19 +37,33 @@
 }
 .circle1pa.active{
   animation: 
-    sin-logo-1 8s linear 0s 2,/*name duration function delay iteration-count*/
-    opas 3s linear 10s 1 forwards;
+    sin-logo-1 8s linear 0s 2;/*name duration function delay iteration-count*/
 }  
 .circle2pa.active{
   animation:
-    sin-logo-2 8s linear 0s 2,
-    opas 3s linear 10s 1 forwards;
+    sin-logo-2 8s linear 0s 2;
 }
 .circle3pa.active{
   animation:
-    sin-logo-3 8s linear 0s 2,
+    sin-logo-3 8s linear 0s 2;
+}
+
+
+.circle1.active{
+  animation: /*name duration function delay iteration-count*/
+    opas 3s linear 10s 1 forwards;
+}  
+.circle2.active{
+  animation:
     opas 3s linear 10s 1 forwards;
 }
+.circle3.active{
+  animation:
+    opas 3s linear 10s 1 forwards;
+}
+
+
+
 .sin.active{
   position: absolute;
   top: 50%;
