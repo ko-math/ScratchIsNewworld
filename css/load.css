@@ -22,28 +22,32 @@
   100% { opacity: 0%; }
 }
 /*内側アニメーション*/
-.sin-logo{
+.sin-logo,.circle1,.circle2,.circle3,.sin{
+  display:none;
+}
+
+.sin-logo.active{
   position: absolute;
   top: 50%;
   left: 50%;
   transform-origin: center;
 }
-.circle1{
+.circle1.active{
   animation: 
     sin-logo-1 8s linear 0s 2,/*name duration function delay iteration-count*/
     opas 3s linear 10s 1 forwards;
 }  
-.circle2{
+.circle2.active{
   animation:
     sin-logo-2 8s linear 0s 2,
     opas 3s linear 10s 1 forwards;
 }
-.circle3{
+.circle3.active{
   animation:
     sin-logo-3 8s linear 0s 2,
     opas 3s linear 10s 1 forwards;
 }
-.sin {
+.sin.active{
   position: absolute;
   top: 50%;
   left: 50%;
